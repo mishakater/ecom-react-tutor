@@ -5,10 +5,6 @@ import { Outlet, Link } from "react-router-dom";
 
 export const Layout = () => (
   <>
-    <header>
-      <Header />
-    </header>
-
     <Outlet />
 
     <footer>

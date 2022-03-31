@@ -2,3 +2,32 @@
   pointer-events: none;
   cursor: default;
 }
+.container {
+  width: 100%;
+  background-color: rgb(194, 159, 159);
+  header {
+    max-width: 1345px;
+    margin: 0px auto;
+    .header-items-container {
+      padding: 25px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .header-links-container {
+        display: flex;
+        gap: 40px;
+
+        .sign-out-link {
+          cursor: pointer;
+        }
+      }
+
+      a,
+      div {
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+      }
+    }
+  }
+}
